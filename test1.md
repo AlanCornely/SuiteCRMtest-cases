@@ -2,11 +2,10 @@
 * Description: This test verifies that the SuiteCRM login process works correctly when valid credentials are provided.
 * Objective: To confirm that the system authenticates a user with valid credentials and redirects to the dashboard properly.
 * What is being tested: The login functionality and authentication flow of the SuiteCRM system.
-* Prerequisites:
+## Prerequisites:
 * A valid user account exists in the system.
 * Access to the SuiteCRM instance at crm.alunostds.dev.br using a supported browser (Chrome, Firefox, or Edge).
 ## Test Procedure:
-
 
 1. Navigate to crm.alunostds.dev.br.
 2. Enter the username "admin" and password "admin123".
