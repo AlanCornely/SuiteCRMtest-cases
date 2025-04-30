@@ -43,5 +43,6 @@ Screenshots:
 3. Access denied message  
 
 ### Settings:  
-OS: Windows 10/11  
-Browser: Chrome v125+  
+OS: Windows 11 pro
+Browser: Chrome 123.0.6312.86
+Resolution: 1920x1080
