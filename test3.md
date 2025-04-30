@@ -1,63 +1,41 @@
 # Title: Creating a New Contact
-Objective:
+## Objective:
 To ensure that the Contacts module allows the creation of a new record with all required information and returns a success confirmation.
 
-Description:
+## Description:
 This test verifies whether the SuiteCRM system correctly accepts and saves a new contact when all mandatory fields are filled with valid data.
 
-Prerequisites:
+## Prerequisites:
 Access to SuiteCRM at crm.alunostds.dev.br with valid credentials.
 
 Proper permissions to create contacts.
 
 Supported browser (Chrome, Firefox, or Edge).
 
-Test Procedure:
-Log in to the System:
+### Test Procedure:
+1. Log in to SuiteCRM.
+2. From the top navigation menu, go to Contacts and Create Contact.
+3. The app redirects to the URL: https://crm.alunostds.dev.br/#/contacts/edit?return_module=Contacts&return_action=DetailView
+4. Fill in the necessary details for the new contact.
+5. Only the Last Name field is required; other fields may be left blank.
+6. Click the Save button to create the contact.
+7. Verify if the contact was created and appears in the contacts list or details view.
 
-Go to crm.alunostds.dev.br.
+### Expected Result:
+ The system should successfully register the new contact, display a confirmation message, and redirect to the contact details page.
 
-Enter a valid username and password (e.g., "admin" / "admin123").
+### Actual Result:
+ Success.
 
-Click "Login".
-
-Access the Contacts Module:
-
-In the main menu, click "Contacts".
-
-Select "Create Contact".
-
-Fill in Required Fields:
-
-First Name: "João Silva"
-
-Last Name: "Souza"
-
-Email: "joao.souza@example.com"
-
-Phone: "+55 (11) 98765-4321"
-
-Company: "Tech Solutions Ltd."
-
-Save the Contact:
-
-Click "Save".
-
-Expected Result:
-The system should successfully register the new contact, display a confirmation message, and redirect to the contact details page.
-
-Actual Result:
-✅ Success.
-
-Result Analysis:
+### Result Analysis:
 The test was successful as the system accepted the valid data, saved the contact, and displayed the correct confirmation.
 
-Possible Errors (if applicable):
+## Possible Errors (if applicable):
 Missing required fields → The system should prevent saving until all mandatory fields are filled.
 
 Invalid format (email, phone) → The system should display a specific error message.
 
-Evidence:
+# Evidence:
 Screenshot of the filled form.
 
 Screenshot of the success message after saving.
