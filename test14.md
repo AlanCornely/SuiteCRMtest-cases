@@ -24,8 +24,8 @@ Tests the task creation functionality in the SuiteCRM Calendar module.
 The system should create the task and display the summary page after saving.  
 
 ### Actual Result:  
-✅ Task created successfully  
-✅ Required fields validated correctly  
+ Task created successfully  
+ Required fields validated correctly  
 
 ### Analysis:  
 Functionality is operating as specified.  

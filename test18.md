@@ -27,9 +27,9 @@ The system should allow exporting:
 - CSV with preserved structure  
 
 ### Actual Result:  
-✅ CSV works correctly  
-⚠️ PDF limited to 1 record  
-❌ No export option for Excel  
+ CSV works correctly  
+ PDF limited to 1 record  
+ No export option for Excel  
 
 ### Analysis:  
 The export functionality has significant limitations.  

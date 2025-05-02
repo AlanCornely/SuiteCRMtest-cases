@@ -23,8 +23,8 @@ Tests the SuiteCRM alert mechanism during the creation and editing of records.
 The system should display clear visual alerts for user actions.  
 
 ### Actual Result:  
-⚠️ No visual notifications  
-⚠️ Only log entry in the bottom-right corner  
+ No visual notifications  
+ Only log entry in the bottom-right corner  
 
 ### Analysis:  
 The system does not meet expectations for immediate visual feedback.  

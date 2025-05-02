@@ -19,20 +19,12 @@ Tests SuiteCRM compatibility across different combinations of browsers and platf
    - Edge ✅  
    - Firefox ✅  
    - Opera ✅  
-   - Brave ✅  
-   - Vivaldi ✅  
-   - Tor ✅  
 
 3. macOS 14:  
    - Safari ✅  
    - Chrome ✅  
    - Firefox ✅  
    - Edge ✅  
-   - Opera ✅  
-   - Brave ✅  
-   - Vivaldi ✅  
-   - Tor ✅  
-
 4. Android 15-10:  
    - Chrome ✅  
    - Firefox ✅  
@@ -44,8 +36,8 @@ Tests SuiteCRM compatibility across different combinations of browsers and platf
 Normal operation on all modern browsers.  
 
 ### Actual Result:  
-✅ Compatible with all modern browsers  
-❌ Failure on Android 4.4 KitKat  
+ Compatible with all modern browsers  
+ Failure on Android 4.4 KitKat  
 
 ### Analysis:  
 The system has excellent compatibility, except on very outdated systems.  

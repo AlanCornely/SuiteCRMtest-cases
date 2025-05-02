@@ -29,11 +29,11 @@ The system should provide:
 - Intuitive visualization  
 
 ### Actual Result:  
-⚠️ Partial functionality:  
-✅ Basic logs on the dashboard  
-✅ Error logs in the admin panel  
-❌ No logs for edits/deletions  
-❌ Lack of a unified interface  
+ Partial functionality:  
+ Basic logs on the dashboard  
+ Error logs in the admin panel  
+ No logs for edits/deletions  
+ Lack of a unified interface  
 
 ### Analysis:  
 The system has limited auditing capabilities, with fragmented information.  

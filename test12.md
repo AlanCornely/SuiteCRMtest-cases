@@ -20,7 +20,7 @@ Tests the email-sending functionality of SuiteCRM to ensure message delivery.
 The email should be sent and delivered successfully.  
 
 ### Actual Result:  
-❌ Failure - SMTP server not configured  
+Failure - SMTP server not configured  
 
 ### Analysis:  
 The test could not be completed due to the lack of email server configuration.  

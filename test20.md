@@ -22,8 +22,8 @@ Tests the validation of required fields during record creation in SuiteCRM.
 The system should prevent saving and clearly indicate the missing required fields.  
 
 ### Actual Result:  
-✅ Validation worked in all tested modules  
-✅ Error messages were clear and visible  
+Validation worked in all tested modules  
+Error messages were clear and visible  
 
 ### Analysis:  
 Required field validation is correctly implemented throughout the system.  

@@ -23,13 +23,16 @@ Tests the performance of SuiteCRM when executing queries in modules with a signi
    - Time to sort results  
 
 ### Expected Result:  
+
 Queries should return in less than 5 seconds for reasonable data volumes.  
 
 ### Actual Result:  
-⏱️ Average of 3.8s for basic queries  
-⚠️ Peaks of up to 7s for complex filters  
+
+Average of 3.8s for basic queries  
+Peaks of up to 7s for complex filters  
 
 ### Analysis:  
+
 Performance is within acceptable limits but has room for optimization in complex queries.  
 
 ### Possible Issues:  

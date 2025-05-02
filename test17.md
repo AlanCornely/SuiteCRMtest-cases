@@ -27,7 +27,7 @@ Sistema deveria permitir criar relatórios customizados com:
 - Formatação profissional
 
 ### Resultado Obtido:
-⚠️ Funcionalidade limitada:
+ Funcionalidade limitada:
 - CSV: Exporta dados brutos
 - PDF: Apenas registro único
 - Nenhum recurso avançado de relatórios

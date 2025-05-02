@@ -25,9 +25,9 @@ Tests the process of assigning tasks to users and the corresponding notification
 - Notification received by the assigned user  
 
 ### Actual Result:  
-✅ Assignment worked  
-⚠️ Notification not verified (unclear configuration)  
-⚠️ Confusing interface for locating tasks  
+Assignment worked  
+Notification not verified (unclear configuration)  
+Confusing interface for locating tasks  
 
 ### Analysis:  
 Basic functionality operates, but there are usability and configuration issues.  
